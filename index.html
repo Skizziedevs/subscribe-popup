@@ -9,69 +9,76 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title> Big footer </title>
+    <title> Download status</title>
 </head>
 
 <body class="bg-gray-100">
+       <div class="w-[60px] h-[60px] bg-white text-center rounded-md relative left-[820px] top-[31px] hover:border-blue-300 border-[5px]">
+        <i class="fa-solid fa-cloud-arrow-down text-[27px] pt-[12px]  content-center"></i>
+       </div>
+   <main class="bg-white w-[400px] h-[460px] mt-[35px] py-[30px] shadow-md rounded-md mx-auto">
+    <div class="bg-blue-100 border-[2px] border-gray-400 w-[340px] mx-auto rounded-md">
+        <h2 class="pl-[10px] pt-[10px] text-[18px]">Cloud storage</h2>
+        <div class="h-[14px] mt-[8px] border-[2px] w-[320px] mx-auto border-gray-400 rounded-full">
+         <div class="h-[8px] mt-[1px] ml-[1px] bg-black w-[65px] rounded-full"> </div>
+        </div>
+        <p class="pl-[10px] pt-[6px] pb-[10px] text-gray-700 text-[14px]">265bytes of 1 TBused</p>
+    </div>
+    <div class="flex w-[340px] py-[16px] border-b-[2px] border-gray-400 mx-auto justify-between">
+        <div class="flex">
+        <i class="fa-solid fa-circle-check text-green-600 text-[30px] pt-[9px] pr-[14px]"></i> 
+        <span >
+            <h2 class="font-bold">File syncing</h2>
+            <p class="text-[13px] text-gray-800">Up to Date</p>
+        </span>
+        </div>
+        <i class="fa-solid fa-gear  text-gray-700 text-[25px] pt-[11px]"></i>
+    </div>
+    <div class="flex w-[340px] py-[16px] border-b-[2px] border-gray-400 mx-auto justify-between">
+        <div class="flex">
+        <div class="loader  mt-[9px] mr-[14px] animate-spin "></div> 
+        <span >
+            <h2 class="font-bold">File syncing</h2>
+            <p class="text-[13px] text-gray-800">Up to Date</p>
+        </span>
+        </div>
+        <i class="fa-solid fa-gear  text-gray-700 text-[25px] pt-[11px]"></i>
+    </div>
+    <div class="flex w-[340px] py-[16px] mx-auto justify-between">
+        <div class="flex">
+            <div class="loader2  mt-[9px] mr-[14px]  "></div>
+        <span >
+            <h2 class="font-bold">Updating solution</h2>
+            <p class="text-[13px] text-gray-800">Waiting...</p>
+        </span>
+        </div>
+        <i class="fa-solid fa-gear  text-gray-700 text-[25px] pt-[11px]"></i>
+    </div>
+    <button class="border-[1px] border-black py-[12px] ml-[30px] px-[14px] mt-[19px]">
+        Go to downloads
+    </button>
+   </main>
 
-    <main class="bg-white w-[1080px] h-[580px] rounded-lg shadow-md mx-auto my-auto mt-[4%] mb-[4%]">
-        <section class="flex justify-between pt-[50px] px-[51px]">
-            <div class="flex h-[260px] w-[370px] rounded-md shadow-md bg-gray-100">
-                <img class=" w-[120px] my-auto ml-[10px] mr-[10px]" src="./images/jar.png " alt="buterfly-jar">
-                <div class="flex-col justify-between pt-[27px] pr-[10px]">
-                    <h2 class="text-[19px] text-black font-[700] pb-[18px]">Do you have designs to spare?</h2>
-                    <p class="text-[14px] pb-[24px]">Donate the design and contribute to the community</p>
-                    <button class="text-white bg-purple-900 px-6 py-3 rounded-md">Donate now!</button>
-                </div>
-            </div>
-
-            <div>
-                <ul class="space-y-[20px] ">
-                    <li class="text-pink-400 font-bold">Explore</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">Free projects</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">Latest projects</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">Most popular projects</li>
-                    <li class="text-gray-500 hover:text-purple-900 font-bold">Contributor</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="space-y-[20px] ">
-                    <li class="text-pink-400 font-bold">Sites</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">Lisence</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">Articles</li>
-                    <li class="text-gray-500 font-bold hover:text-purple-900">About</li>
-                    <li class="text-gray-500 hover:text-purple-900 font-bold">Support</li>
-                    <li class="text-gray-500 hover:text-purple-900 font-bold">Sponsor</li>
-                </ul>
-            </div>
-
-            <div class="space-y-[20px] ">
-                <h3 class="text-pink-400 font-bold">Follow us</h3>
-                <ul class="flex space-x-5">
-                    <li class="text-[27px]  text-gray-500"><i class="fa-solid fa-basketball "></i></li>
-                    <li class="text-[27px] text-gray-500"><i class="fa-brands fa-twitter"></i></li>
-                    <li class="text-[27px] text-gray-500"><i class="fa-brands fa-instagram"></i></li>
-                </ul>
-                <div class="bg-gray-100 rounded-full ">
-                    <div class="flex py-[13px] px-[11px] mt-[35px]">
-                        <img src="./images/slack-logo.png " class="w-[40px] mr-[11px]" alt="">
-                        <p class="w-[97px] text-[13px] font-[600] ">join our slack channel</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="w-[90%] mx-auto shadow-inner bg-gray-100 mt-[30px]  ">
-            <i class="fa-solid  fa-rectangle-ad text-[40px] text-gray-500 py-[33px] relative left-[48%]  "></i>
-        </section>
-        <section class="w-[90%] mx-auto flex justify-between relative top-[50px]  ">
-            <p class="text-gray-500 text-[14px] pt-[6px]">logout</p>
-            <p class="text-gray-500 text-[14px] pt-[7px]">&#169Icodethis All Rights Reserved</p>
-            <span>
-                <h2 class="text-black font-bold text-[20px]">12,588</23>
-                    <p class="text-gray-500 font-[100] text-[14px]">Projects completed</p>
-            </span>
-        </section>
-    </main>
+    
 </body>
 
+<style>
+    .loader{
+        height: 30px;
+        width: 30px;
+        border: 3px solid #e3e3e3;
+        border-radius: 50%;
+        border-right-color: black;
+        
+    }
+    
+    .loader2{
+        height: 30px;
+        width: 30px;
+        border: 3px solid #e3e3e3;
+        border-radius: 50%;
+        
+    }
+   
+</style>
 </html>
