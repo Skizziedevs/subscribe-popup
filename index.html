@@ -9,76 +9,27 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title> Download status</title>
+    <title>Subscribe popup</title>
 </head>
 
-<body class="bg-gray-100">
-       <div class="w-[60px] h-[60px] bg-white text-center rounded-md relative left-[820px] top-[31px] hover:border-blue-300 border-[5px]">
-        <i class="fa-solid fa-cloud-arrow-down text-[27px] text-gray-800 pt-[12px]  content-center"></i>
-       </div>
-   <main class="bg-white w-[400px] h-[460px] mt-[35px] py-[30px] shadow-md rounded-md mx-auto">
-    <div class="bg-blue-100 border-[2px] border-gray-400 w-[340px] mx-auto rounded-md">
-        <h2 class="pl-[10px] pt-[10px] text-[18px]">Cloud storage</h2>
-        <div class="h-[14px] mt-[8px] border-[2px] w-[320px] mx-auto border-gray-400 rounded-full">
-         <div class="h-[8px] mt-[1px] ml-[1px] bg-black w-[65px] rounded-full"> </div>
+<body class="bg-gray-200">
+      <main class="w-[400px] h-[430px] mt-[110px] rounded-[1.5rem] bg-white bg-opacity-[0.6] mx-auto ">
+        <div class="w-[70%] mx-auto opacity-[1] pt-[21px]">
+            
+            <i class="fa-solid fa-xmark text-blue-950 text-[30px] relative left-[270px] p-[5px] px-[8px] rounded-full bg-white" ></i>
+            <h2 class="text-center text-2xl text-blue-950 font-[600]">Enjoy the read ?</h2>
+            <p class="text-center text-lg w-[270px] text-blue-950 pt-[12px] pb-[25px]">join our monthly newsletter for helpful tips for design and more</p>
+            <input type="text" placeholder="Enter your email" class="w-full pl-[20px] mt-[9px] font-[600] h-[50px] border-gray-400 border-[1px] rounded-md">
+            <div class="flex pt-[16px]">
+                <input type="checkbox" class="h-[32px] w-[32px]" name="" id="" >
+                <p class="text-sm pl-[10px]">i agree to recieve this newsletter and subscribe at any time</p>
+            </div>
+            <button class="bg-blue-950 mt-[35px] w-full text-white h-[52px] mx-auto ">SUBSCRIBE</button>
         </div>
-        <p class="pl-[10px] pt-[6px] pb-[10px] text-gray-700 text-[14px]">265bytes of 1 TB used</p>
-    </div>
-    <div class="flex w-[340px] py-[16px] border-b-[2px] border-gray-400 mx-auto justify-between">
-        <div class="flex">
-        <i class="fa-solid fa-circle-check text-green-600 text-[30px] pt-[9px] pr-[14px]"></i> 
-        <span >
-            <h2 class="font-bold">File syncing</h2>
-            <p class="text-[13px] text-gray-800">Up to Date</p>
-        </span>
-        </div>
-        <i class="fa-solid fa-gear  text-gray-700 text-[25px] pt-[11px]"></i>
-    </div>
-    <div class="flex w-[340px] py-[16px] border-b-[2px] border-gray-400 mx-auto justify-between">
-        <div class="flex">
-        <div class="loader  mt-[9px] mr-[14px] animate-spin "></div> 
-        <span >
-            <h2 class="font-bold">File syncing</h2>
-            <p class="text-[13px] text-gray-800">13%</p>
-        </span>
-        </div>
-        
-    </div>
-    <div class="flex w-[340px] py-[16px] mx-auto justify-between">
-        <div class="flex">
-            <div class="loader2  mt-[9px] mr-[14px]  "></div>
-        <span >
-            <h2 class="font-bold">Updating solution</h2>
-            <p class="text-[13px] text-gray-800">Waiting...</p>
-        </span>
-        </div>
-        
-    </div>
-    <button class="border-[1px] border-black py-[12px] rounded-md ml-[30px] px-[14px] mt-[19px]">
-        Go to downloads
-    </button>
-   </main>
-
-    
+      </main>
 </body>
 
 <style>
-    .loader{
-        height: 30px;
-        width: 30px;
-        border: 3px solid #e3e3e3;
-        border-radius: 50%;
-        border-right-color: black;
-        
-    }
-    
-    .loader2{
-        height: 30px;
-        width: 30px;
-        border: 3px solid #e3e3e3;
-        border-radius: 50%;
-        
-    }
-   
+
 </style>
 </html>
